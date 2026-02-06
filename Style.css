@@ -1,0 +1,111 @@
+*{
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+body{
+    margin:0;
+    font-family:"segoe UI",sans-serif;
+    background:#0b1120;
+    color:white;
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 50px;
+    background: #020617;
+    position:sticky;
+    top:0;
+}
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:20px;
+}
+nav a{
+    color:white;
+    text-decoration: none;
+    transition:0.3s;
+}
+nav a:hover{
+    color:#38bdf8;
+}
+.hero{
+    text-align:center;
+    padding:100px 20px;
+    background:radial-gradient(circle,#2563eb,#020617)
+}
+.hero span{
+    color:#38bdf8;
+}
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background:#38bdf8;
+    color:black;
+    text-decoration: none;
+    border-radius:8px;
+    transition:0.3s;
+}
+.btn:hover{
+    background:white;
+}
+section{
+    max-width:1000px;
+    margin:auto;
+    padding:60px 20px;
+}
+h2{
+    border-left:5px solid #38bdf8;
+    padding-left:12px;
+    
+}
+.skill-grid{
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+    margin-top:20px;
+}
+.skill-grid span{
+    background:#1e293b;
+    padding:12px;
+    text-align:center;
+    border-radius:10px;
+    color:white;
+    transition:0.3s;
+}
+.skill-grid span:hover{
+    background: #38bdf8;
+    color:black;
+}
+.project-card{
+    background:#1e293b;
+    padding:20px;
+    border-radius:12px;
+    margin-top:20px;
+    transition:0.3s;
+}
+.project-card:hover{
+    transform:scale(1.03);
+    background:#334155;
+}
+footer{
+    text-align:center;
+    padding:20px;
+    background:#020617;
+    margin-top:40px;
+}
+.social-icons{
+    margin-top:15px;
+}
+.social-icons a{
+    color:white;
+    font-size:24px;
+    margin-right:15px;
+    transition:0.3s;
+}
+.social-icons a:hover{
+    color:#38bdf8;
+    transform:scale(1.2);
+}
